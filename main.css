@@ -1,0 +1,900 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #04052E;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5vw;
+}
+
+footer {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    background-color: #04052E;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-bar {
+    gap: 30px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    width: fit-content;
+    background-color: #04052E;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar {
+    gap: 30px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    width: fit-content;
+    background-color: #04052E;
+    align-items: center;
+    justify-content: center;
+}
+
+.blauwe-text-kleur {
+    color: #0D00A4;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.witte-text-kleur {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.naam-doos {
+    width: fit-content;
+    height: auto;
+}
+
+.text-naam {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+}
+
+.home-page-bovenste-foto {
+    width: 75%;
+}
+
+.box-om-plaatje {
+    display: flex;
+    gap: 5vw;
+    height: 36vw;
+    width: 98.9vw;
+    background-image: url(images/HomePaginaEersteFoto.webp);
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-om-plaatje2 {
+    display: flex;
+    gap: 5vw;
+    height: 36vw;
+    width: 98.9vw;
+    background-image: url(images/HomePaginaTweedeFoto.webp);
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    background-position: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-tekst-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65vw;
+}
+
+.home-tekst {
+    background-color: #140152;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+    border-radius: 0.75vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 17vw;
+    text-align: center;
+    color: #d3d3d3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.right {
+    align-items: flex-end;
+    width: 65vw;
+}
+
+.witte-text-kleur-footer {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.blauwe-text-kleur-footer {
+    color: #0D00A4;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.blok-voor-text {
+    background-color: #140152;
+    height: 1000px;
+    width: fit-content;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-om-blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px;
+}
+
+.eerste-blok-tekst {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.laatste-blok-tekst {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    width: 750px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.over-mij-plaatjes {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-self: flex-start;
+    border-radius: 30px;
+
+}
+
+.over-mij-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    gap: 50px;
+}
+
+.mijn-projecten-tekst-blok {
+    width: 475px;
+    background-color: #0D00A4;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding: 2vw;
+}
+
+.main-projecten {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projecten-eerste-tekst {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.school-projecten-blokjes {
+    height: 740px;
+    width: 400px;
+    background-color: #0D00A4;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.school-projecten-blokjes-niet-werkend {
+    height: 600px;
+    width: 400px;
+    background-color: #0D00A4;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    border-radius: 30px;
+    cursor: wait;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blok-om-projecten-blokjes {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pink-goose-plaatje {
+    width: 380px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 9px;
+}
+
+.mastermind-plaatje {
+    width: 380px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 9px;
+}
+
+.visual-studio-code {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.browsers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.visual-studio-code-logo {
+    height: 45px;
+    width: 45px;
+    padding: 20px;
+}
+
+.algemene-info-visual {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.google-chrome {
+    height: 35px;
+    width: 35px;
+    padding: 20px;
+}
+
+.opera-logo {
+    height: 35px;
+    width: 35px;
+}
+
+.figma-logo {
+    height: 55px;
+    width: 55px;
+    padding: 25px;
+}
+
+.algemene-info-browsers {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.figma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.algemene-info-figma {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.algemene-info-tekst {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+}
+
+.github-link{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+}
+
+.github-link-pink-goose{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.github-link-mastermind{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.algemene-info-eclipse {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.algemene-info-onder-eclipse {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.onderste-stuk-tekst {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.eclipse-logo {
+    height: 55px;
+    width: 55px;
+    padding: 20px;
+}
+
+.eclipse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.construction-sign {
+    height: 250px;
+    width: 250px;
+}
+
+.under-construction-tekst {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact-eerste-blokje{
+    width: 475px;
+    background-color: #22007C;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding: 2vw;
+    align-self: center;
+}
+
+.mogelijkheden-voor-contact-tekst{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+.verzend-email-blok{
+    width: 1000px;
+    height: 600px;
+    padding-top: 50px;
+    background-color: #140152;
+    align-self: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.email-invullen{
+    background-color: #0D00A4;
+    width: 900px;
+    height: 50px;
+    border-radius: 30px;
+}
+.email-tekst{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-tekst {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .over-mij-plaatjes {
+        height: 150px;
+        width: 250px;
+    }
+
+    .eerste-blok-tekst {
+        width: 250px;
+        font-size: 17.5px;
+    }
+
+    .laatste-blok-tekst {
+        width: 250px;
+        font-size: 17.5px;
+    }
+
+    .text-naam {
+        font-size: 28px;
+    }
+
+    .witte-text-kleur {
+        font-size: 18px;
+    }
+
+    .blauwe-text-kleur {
+        font-size: 18px;
+    }
+
+    .blok-voor-text {
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .box-om-plaatje {
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .box-om-plaatje2 {
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .home-tekst {
+        width: 25vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .school-projecten-blokjes {
+        width: 300px;
+        height: fit-content;
+    }
+
+    .school-projecten-blokjes-niet-werkend {
+        width: 300px;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .construction-sign {
+        width: 200px;
+        height: 200px;
+    }
+
+    .under-construction-tekst {
+        font-size: 13px;
+    }
+
+    .pink-goose-plaatje {
+        width: 280px;
+        height: 150px;
+    }
+
+    .mastermind-plaatje {
+        width: 280px;
+        height: 150px;
+    }
+
+    .algemene-info-visual {
+        font-size: 12px;
+    }
+
+    .algemene-info-browsers {
+        font-size: 12px;
+    }
+
+    .algemene-info-figma {
+        font-size: 12px;
+    }
+
+    .onderste-stuk-tekst {
+        font-size: 12px;
+    }
+
+    .algemene-info-eclipse {
+        font-size: 12px;
+    }
+
+    .algemene-info-onder-eclipse {
+        font-size: 12px;
+    }
+    .github-link-mastermind{
+        font-size: 12px;
+    }
+    .github-link-pink-goose{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .over-mij-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .mijn-projecten-tekst-blok {
+        margin-bottom: 0px;
+        width: 300px;
+    }
+
+    .projecten-eerste-tekst {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2vw;
+        align-content: center;
+    }
+
+    .witte-text-kleur {
+        font-size: 13px;
+    }
+
+    .blauwe-text-kleur {
+        font-size: 13px;
+    }
+
+    .text-naam {
+        font-size: 20px;
+    }
+
+    .home-tekst {
+        font-size: 17px;
+    }
+
+    .box-om-plaatje {
+        height: 45vh;
+    }
+
+    .box-om-plaatje2 {
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .school-projecten-blokjes {
+        width: 200px;
+        height: fit-content;
+    }
+
+    .school-projecten-blokjes-niet-werkend {
+        width: 200px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .construction-sign {
+        width: 130px;
+        height: 130px;
+    }
+
+    .under-construction-tekst {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .pink-goose-plaatje {
+        width: 180px;
+        height: 90px;
+    }
+
+    .mastermind-plaatje {
+        width: 180px;
+        height: 90px;
+    }
+
+    .visual-studio-code-logo {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
+
+    .algemene-info-visual {
+        padding: 0px;
+    }
+
+    .browsers {
+        height: 100px;
+        gap: 2px;
+    }
+
+    .figma-logo {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
+
+    .google-chrome {
+        height: 25px;
+        width: 25px;
+        padding: 10px;
+    }
+
+    .opera-logo {
+        height: 25px;
+        width: 25px;
+        padding: 6px;
+    }
+
+    .eclipse-logo {
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+    }
+
+    .algemene-info-visual {
+        font-size: 10px;
+    }
+
+    .algemene-info-browsers {
+        font-size: 10px;
+    }
+
+    .algemene-info-figma {
+        font-size: 10px;
+    }
+
+    .onderste-stuk-tekst {
+        font-size: 10px;
+    }
+
+    .algemene-info-eclipse {
+        font-size: 10px;
+    }
+
+    .algemene-info-onder-eclipse {
+        font-size: 10px;
+    }
+    .github-link-mastermind{
+        font-size: 9px;
+    }
+    .github-link-pink-goose{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .school-projecten-blokjes {
+        width: 160px;
+        height: fit-content;
+        margin-bottom: 0px;
+    }
+
+    .blok-om-projecten-blokjes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .school-projecten-blokjes-niet-werkend {
+        width: 160px;
+        height: 250px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .construction-sign {
+        width: 100px;
+        height: 100px;
+    }
+
+    .under-construction-tekst {
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    .pink-goose-plaatje {
+        width: 140px;
+        height: 70px;
+    }
+
+    .mastermind-plaatje {
+        width: 140px;
+        height: 70px;
+    }
+
+    .visual-studio-code-logo {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    .algemene-info-visual {
+        padding: 0px;
+    }
+
+    .browsers {
+        height: 100px;
+        gap: 2px;
+    }
+
+    .figma-logo {
+        width: 30px;
+        height: 30px;
+        padding: 1px;
+    }
+
+    .google-chrome {
+        height: 20px;
+        width: 20px;
+        padding: 5px;
+    }
+
+    .opera-logo {
+        height: 20px;
+        width: 20px;
+        padding: 6px;
+    }
+
+    .eclipse-logo {
+        height: 20px;
+        width: 20px;
+        padding: 5px;
+    }
+
+    .algemene-info-visual {
+        font-size: 7px;
+    }
+
+    .algemene-info-browsers {
+        font-size: 7px;
+    }
+
+    .algemene-info-figma {
+        font-size: 7px;
+    }
+
+    .onderste-stuk-tekst {
+        font-size: 7px;
+    }
+
+    .algemene-info-eclipse {
+        font-size: 7px;
+    }
+
+    .algemene-info-onder-eclipse {
+        font-size: 6px;
+    }
+    .github-link-mastermind{
+        font-size: 7px;
+    }
+    .github-link-pink-goose{
+        font-size: 7px;
+    }
+    .mijn-projecten-tekst-blok {
+        width: 200px;
+    }
+
+    .projecten-eerste-tekst {
+        font-size: 10px;
+    }
+
+    .eerste-blok-tekst {
+        font-size: 12px;
+    }
+
+    .laatste-blok-tekst {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .blauwe-text-kleur-footer {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .witte-text-kleur-footer {
+        font-size: 13px;
+    }
+}
