@@ -36,10 +36,18 @@
             <h1 class="mogelijkheden-voor-contact-tekst">Heb je een vraag aan mij? Die kan je stellen om contact op te nemen. Hieronder zie je de mogelijkheden om met mij contact op te nemen</h1>
         </div>
         <div class="verzend-email-blok">
-            <span class="email-tekst">Email</span>
-            <div class="email-invullen">
+            <form class="formulier" action="https://formsubmit.co/smitssander3@gmail.com" method="POST">
+                <label class="formulier-tekst">E-mail</label>
+                <input type="email" class="formulier-input" name="email">
+                <label class="formulier-tekst">Naam</label>
+                <input type="text" class="formulier-input" name="naam">
+                <label class="formulier-tekst">Bericht</label>
+                <textarea type="text" class="formulier-input-lang" name="bericht"></textarea>
+                <button type="submit">Send</button>
+              </form>
 
             </div>
+            
         </div>
 </main>
 

@@ -466,9 +466,9 @@ a {
     font-family: "Montserrat", sans-serif;
 }
 .verzend-email-blok{
-    width: 1000px;
-    height: 600px;
-    padding-top: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
     background-color: #140152;
     align-self: center;
     border-radius: 30px;
@@ -478,18 +478,41 @@ a {
     gap: 30px;
     
 }
-.email-invullen{
-    background-color: #0D00A4;
-    width: 900px;
-    height: 50px;
-    border-radius: 30px;
+
+.formulier {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.email-tekst{
+
+.formulier-tekst {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    display: flex;
+    align-self: center;
+}
+
+.formulier-input {
+    background-color: #0D00A4;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    width: 800px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.formulier-input-lang {
+    background-color: #0D00A4;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    width: 800px;
+    height: 300px;
+    font-size: 20px;
+    color: #ffffff;
+    resize: none;
 }
 
 @media only screen and (max-width: 1200px) {
