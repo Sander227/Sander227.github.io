@@ -372,21 +372,21 @@ a {
     padding: 10px;
 }
 
-.github-link{
+.github-link {
     display: flex;
     flex-direction: row;
     text-align: center;
     padding: 10px;
 }
 
-.github-link-pink-goose{
+.github-link-pink-goose {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 
-.github-link-mastermind{
+.github-link-mastermind {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
@@ -445,7 +445,7 @@ a {
     text-align: center;
 }
 
-.contact-eerste-blokje{
+.contact-eerste-blokje {
     width: 475px;
     background-color: #22007C;
     display: flex;
@@ -457,7 +457,7 @@ a {
     align-self: center;
 }
 
-.mogelijkheden-voor-contact-tekst{
+.mogelijkheden-voor-contact-tekst {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -466,7 +466,7 @@ a {
     font-family: "Montserrat", sans-serif;
 }
 
-.verzend-email-blok{
+.verzend-email-blok {
     width: fit-content;
     height: fit-content;
     padding: 50px;
@@ -477,7 +477,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    
+
 }
 
 .formulier {
@@ -516,7 +516,7 @@ a {
     resize: none;
 }
 
-.verzend-knop{
+.verzend-knop {
     background-color: #0D00A4;
     color: #ffffff;
     font-weight: bold;
@@ -524,25 +524,27 @@ a {
     font-size: 20px;
     width: fit-content;
     align-self: center;
-    padding: 15px; padding-left: 20px; padding-right: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 22px;
     border: none;
     margin-top: 20px;
 }
 
-.andere-mogelijkheid-contact-blokje{
+.andere-mogelijkheid-contact-blokje {
     width: fit-content;
     background-color: #22007C;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     border-radius: 30px;
     padding: 2vw;
     align-self: center;
 }
 
-.andere-mogelijkheden-voor-contact-tekst{
+.andere-mogelijkheden-voor-contact-tekst {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -550,6 +552,59 @@ a {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
 }
+
+.whatsapp-logo {
+    height: 250px;
+    width: 250px;
+}
+
+.mail-logo {
+    height: 300px;
+    width: 300px;
+}
+
+.andere-contact-mogelijkheden {
+    height: 450px;
+    width: 400px;
+    background-color: #0D00A4;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blok-om-andere-contact-blokjes {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mail-tekst {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.whatsapp-tekst {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-contact {
+    margin-top: 100px;
+}
+
 @media only screen and (max-width: 1200px) {
     .home-tekst {
         font-size: 20px;
@@ -660,10 +715,12 @@ a {
     .algemene-info-onder-eclipse {
         font-size: 12px;
     }
-    .github-link-mastermind{
+
+    .github-link-mastermind {
         font-size: 12px;
     }
-    .github-link-pink-goose{
+
+    .github-link-pink-goose {
         font-size: 12px;
     }
 }
@@ -812,10 +869,12 @@ a {
     .algemene-info-onder-eclipse {
         font-size: 10px;
     }
-    .github-link-mastermind{
+
+    .github-link-mastermind {
         font-size: 9px;
     }
-    .github-link-pink-goose{
+
+    .github-link-pink-goose {
         font-size: 10px;
     }
 }
@@ -923,12 +982,15 @@ a {
     .algemene-info-onder-eclipse {
         font-size: 6px;
     }
-    .github-link-mastermind{
+
+    .github-link-mastermind {
         font-size: 7px;
     }
-    .github-link-pink-goose{
+
+    .github-link-pink-goose {
         font-size: 7px;
     }
+
     .mijn-projecten-tekst-blok {
         width: 200px;
     }
