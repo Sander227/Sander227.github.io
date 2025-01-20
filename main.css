@@ -250,7 +250,7 @@ a {
 }
 
 .school-projecten-blokjes {
-    height: 740px;
+    height: 825px;
     width: 400px;
     background-color: #0D00A4;
     margin-bottom: 100px;
@@ -391,6 +391,7 @@ a {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
+    margin-top: 25px;
 }
 
 .algemene-info-eclipse {
@@ -871,11 +872,11 @@ a {
     }
 
     .github-link-mastermind {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .github-link-pink-goose {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -984,7 +985,7 @@ a {
     }
 
     .github-link-mastermind {
-        font-size: 7px;
+        font-size: 6px;
     }
 
     .github-link-pink-goose {
