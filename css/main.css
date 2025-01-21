@@ -89,7 +89,7 @@ a {
     gap: 5vw;
     height: 36vw;
     width: 98.9vw;
-    background-image: url(images/HomePaginaEersteFoto.webp);
+    background-image: url(../images/HomePaginaEersteFoto.webp);
     background-repeat: no-repeat;
     background-size: 70vw;
     flex-direction: column;
@@ -102,7 +102,7 @@ a {
     gap: 5vw;
     height: 36vw;
     width: 98.9vw;
-    background-image: url(images/HomePaginaTweedeFoto.webp);
+    background-image: url(../images/HomePaginaTweedeFoto.webp);
     background-repeat: no-repeat;
     background-size: 70vw;
     background-position: right;
